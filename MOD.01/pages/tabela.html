@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tabela html</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
     <table>
@@ -14,6 +23,7 @@
 
           <th colspan="3">usuarios</th>
         </tr>
+        <!-- 2 linha -->
         <tr>
           <!-- 3 colunas -->
           <th>id</th>
@@ -31,5 +41,35 @@
       </tbody>
     </table>
     <br />
+    <span></span>
+    <hr />
+    <table>
+      <!-- cabeçalho -->
+      <thead>
+        <!-- 2 linha -->
+        <tr>
+          <!-- 3 colunas -->
+          <th>frutas</th>
+          <th>verduras</th>
+          <th>graos</th>
+          <th>...</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 3 linha -->
+        <tr>
+          <td>maça</td>
+          <td>alface</td>
+          <td>arroz</td>
+          <td rowspan="4">3 linhas</td>
+        </tr>
+        <tr>
+          <td>laranja</td>
+          <td>beterraba</td>
+          <td>trigo</td>
+        </tr>
+        <td colspan="3">3 colunas</td>
+      </tbody>
+    </table>
   </body>
 </html>
