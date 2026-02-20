@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>formulario HTML</title>
+  <link rel="stylesheet" href="../styles/formulario.css" />
+  <!-- <style> -->
+  <!-- h1{
+         color:#667fee} -->
+  <!-- } -->
+  <!-- label{
+          display: block
+          } -->
+  <!-- </style> -->
+</head>
+
+<body>
+  <h1>Cadastro de Usuarios</h1>
+  <form>
+    <div>
+      <label class="block" for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required placeholder="digite seu nome" />
+    </div>
+    <div>
+      <label class="block" for="email">Email</label>
+      <input type="text" name="email" id="email" required placeholder="digite seu Email" />
+    </div>
+    <div>
+      <label class="block" for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" required placeholder="digite sua senha" />
+    </div>
+    <div>
+      <label class="block" for="nasc">Data de nascimento</label>
+      <input type="date" name="nasc" id="nasc" required>
+    </div>
+      <div>
+        <legend> Qual seu nivel</legend>
+<div>
+        <input type="radio" name="nivel" id="junior" value="junior">
+        <label for="junior">junior</label>
+      </div>
+      <div>
+        <input type="radio" name="nivel" id="pleno" value="pleno">
+        <label for="pleno">pleno</label>
+      </div>
+      <div>
+        <input type="radio" name="nivel" id="senior" value="senior">
+        <label for="senior">senior</label>
+      </div>
+      <div>
+        <div>
+        <input type="radio" name="nivel" id="Outro">
+        <label for="outro">Outro</label>
+      </div>
+      <div>
+        <label for="observacao">em caso de outro, especifique:</label>
+        <textarea class="block" name="observacao" id="observacao" maxlength="10"></textarea>
+         </div>
+         <div>
+        <legend>quais a sua stack</legend>
+
+        <div>
+          <input type="checkbox" name="stack" id="html" id="html">
+          <label for="html">HTML</label>
+
+      </div>
+ <div>
+          <input type="checkbox" name="stack" id="css">
+          <label for="css">css</label>
+ </div>
+<div>
+          <input type="checkbox" name="stack" id="js">
+          <label for="js">javascript</label>
+ </div>
+
+    <button>Cadastrar</button>
+  </form>
+</body>
+
+</html>
