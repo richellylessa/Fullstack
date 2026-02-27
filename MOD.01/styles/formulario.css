@@ -1,10 +1,54 @@
+/* /* seletor global */
+* {
+  margin: 0;  /*  espacamento externo */
+  padding:0;  /* espaçamento interno*/
+  border: 0;  /*  */
+  outline: 0;  /* linha de fora da borda */
+  box-sizing: border-box;   /* serve para que ele considere a borda como limite em relaçao ao tamanho da caixa */
+
+}
+body {
+  color: white;
+  background-color: rgb(223, 217, 217);
+}
+
+main {
+  width: 30%;
+  background-color: #5590ab;
+  margin: auto; 
+  padding: 30px; 
+
+border-radius: 8px;
+}
+
+
 /* seletor de tag */
 
 h1 {
-  color: red;
+  color: white
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#nome, #email, #senha{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#nas, textarea{
+  background-color:#fff;
 }
 
 /* seletor de classe */
 .block {
   display: block;
+}
+.btn {
+  background-color: rgb(30, 30, 142);
+  color: white;
+  padding: 10px; 5px; 10px; 5px;
+  border-radius: 8px;
+  margin-botton: 50px;
+  width: 100%;
 }
