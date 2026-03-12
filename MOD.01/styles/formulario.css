@@ -17,7 +17,6 @@ main {
   background-color: #5590ab;
   margin: auto; 
   padding: 30px; 
-
 border-radius: 8px;
 }
 
@@ -25,7 +24,7 @@ border-radius: 8px;
 /* seletor de tag */
 
 h1 {
-  color: white
+  color: white;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -48,7 +47,7 @@ h1 {
   background-color: rgb(30, 30, 142);
   color: white;
   padding: 10px; 5px; 10px; 5px;
-  border-radius: 8px;
-  margin-botton: 50px;
+  border-radius: 8px; /* cantos arredondados */
+  margin-bottom: 0;
   width: 100%;
 }
